@@ -1,10 +1,11 @@
 version: '3'
 services:
-  web:
-    build: .
+  vue:
+    build: ./vue
+    working_dir: /home/node/app/project
     volumes:
-      - ./app:/app
+      - ./project:/home/node/app/project
     ports:
-      - '8080:8080'
-    stdin_open: true
-    tty: true
+      - 3000:3000
+    environment:
+      - HOST=0.0.0.0
