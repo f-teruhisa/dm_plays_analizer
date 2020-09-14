@@ -332,4 +332,7 @@ yarn-error.log
 # CodeStream plugin
 # https://plugins.jetbrains.com/plugin/12206-codestream
 
+# Dotenv
+.env
+
 # End of https://www.toptal.com/developers/gitignore/api/nuxt,nuxtjs,vue,vuejs,jetbrains,webstorm,intellij,macos,firebase,git
