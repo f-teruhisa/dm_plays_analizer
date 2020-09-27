@@ -1,4 +1,4 @@
-# dm_plays_analizer
+# dm_playz_analizer
 
 ## Build Setup
 
