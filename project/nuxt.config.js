@@ -1,7 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
-import { Configuration } from '@nuxt/types'
 
-const config: Configuration = {
+export default {
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -93,4 +92,3 @@ const config: Configuration = {
   build: {
   }
 }
-export default config
